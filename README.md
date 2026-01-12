@@ -131,6 +131,9 @@ By the end of the lab:
 
 ## Procedure for each task
 
+> [!NOTE]
+> This procedure is based on the [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow).
+
 1. [Create](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue) a GitHub issue in your forked repo using the "Lab Task" option and fill in the details.
 2. Create a new branch for the issue via [GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-a-branch-for-an-issue) or via `git checkout -b <branch name>`.
 3. Make [commits](https://smartprogramming.in/tutorials/git-and-github/git-commit) to that branch to complete the task.

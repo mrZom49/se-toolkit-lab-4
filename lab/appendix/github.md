@@ -53,7 +53,9 @@ When you fork a repository on `GitHub`, you create a personal copy under your `G
 
 ### Fork URL
 
-The fork [URL](./web-development.md#url) should look like `https://github.com/<your-username>/se-toolkit-lab-2`.
+Assume the original repo [URL](./web-development.md#url) is `https://github.com/<repo-owner-username>/<repo-name>`.
+
+Then, your fork URL should look like `https://github.com/<your-username>/<repo-name>`.
 
 ## Issue
 

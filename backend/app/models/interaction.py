@@ -19,7 +19,7 @@ class InteractionLog(SQLModel, table=True):
     learner_id: int = Field(foreign_key="learner.id")
     item_id: int = Field(foreign_key="item.id")
     kind: str
-    created_at: datetime | None = Field(default_factory=datetime.utcnow)
+    created_at: datetime | None = Field(default_factory=datetime.utcnow) # fixed this also
 
 
 class InteractionLogCreate(SQLModel):

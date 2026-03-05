@@ -97,4 +97,4 @@ def test_interaction_log_create_with_very_long_kind_is_allowed() -> None:
 #     """Test edge case: InteractionLogCreate accepts special characters in kind field."""
 #     special_kind = "click@2024#test$value"
 #     log_create = InteractionLogCreate(learner_id=1, item_id=1, kind=special_kind)
-#     assert log_create.kind == special_kind
+#     assert log_create.kind == special_kinde
